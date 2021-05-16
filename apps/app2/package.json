@@ -1,0 +1,17 @@
+{
+  "name": "app2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --open chrome --mode development",
+    "build": "webpack --mode production",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "app1": "^1.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
